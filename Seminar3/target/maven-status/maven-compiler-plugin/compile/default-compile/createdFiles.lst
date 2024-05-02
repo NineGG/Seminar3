@@ -1,0 +1,10 @@
+se\kth\iv1350\seminar3\model\dto\ReceiptDTO.class
+se\kth\iv1350\seminar3\model\dto\ItemDTO.class
+se\kth\iv1350\seminar3\model\Sale.class
+se\kth\iv1350\seminar3\startup\Main.class
+se\kth\iv1350\seminar3\integration\ExternalAccountingSystemAccessPoint.class
+se\kth\iv1350\seminar3\integration\ExternalInventorySystemAccessPoint.class
+se\kth\iv1350\seminar3\model\Item.class
+se\kth\iv1350\seminar3\view\View.class
+se\kth\iv1350\seminar3\controller\Controller.class
+se\kth\iv1350\seminar3\model\Receipt.class
