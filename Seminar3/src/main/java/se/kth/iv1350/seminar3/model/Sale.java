@@ -21,7 +21,8 @@ public class Sale {
         receipt = new Receipt();
     }
     /**
-     * Adds an item to the receipt.
+     * Adds an item to the receipt,
+     * if the item already is on the receipt, increase that items amount instead.
      * 
      * @param item The item to add.
      * @param amount The number of items to add.
