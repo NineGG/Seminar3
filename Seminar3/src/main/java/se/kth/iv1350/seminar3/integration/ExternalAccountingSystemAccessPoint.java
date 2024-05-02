@@ -4,6 +4,8 @@
  */
 package se.kth.iv1350.seminar3.integration;
 
+import java.util.ArrayList;
+import java.util.List;
 import se.kth.iv1350.seminar3.model.dto.ReceiptDTO;
 
 /**
@@ -14,7 +16,16 @@ import se.kth.iv1350.seminar3.model.dto.ReceiptDTO;
  * @author nilse
  */
 public class ExternalAccountingSystemAccessPoint {
-    public void updateAccounting(ReceiptDTO receipt){
+    
+    private List<ReceiptDTO> database = new ArrayList<>();
+    
+    /**
+     * Sends the receiptDTO to the accounting system.
+     * 
+     * @param receiptDTO The ReceiptDTO to be sent.
+     */
+    public void updateAccounting(ReceiptDTO receiptDTO){
+        database.add(receiptDTO);
         System.out.println("Sale info sent to accounting system");
     }
 }
