@@ -87,7 +87,6 @@ public class ReceiptTest {
         }
         
         assertFalse(isEqual, "List in receipt isn't equal to the expected list");
-        //assertIterableEquals(expectedList, resultList, "List in receipt isn't equal to the expected list");
     }
 
     @Test
@@ -103,7 +102,6 @@ public class ReceiptTest {
 
     @Test
     public void testPaymentEqualsPaidAmount() {
-        // tests both payment and getpayment methods
         System.out.println("payment");
         double payment = 100.0;
         testReceipt.payment(payment);
