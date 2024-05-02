@@ -134,7 +134,7 @@ public class Receipt {
     }
     
     /**
-     * Adds the paid amount to the receipt.
+     * Adds the paid amount to the receipt and records the time of sale.
      * 
      * @param payment The paid amount in SEK.
      */
@@ -144,7 +144,6 @@ public class Receipt {
         
         dateAndTime = LocalDateTime.now().toString();
         
-        //formatting the string
         String[] dateAndTimeSplit1 = dateAndTime.split("T");
         String[] dateAndTimeSplit2 = dateAndTimeSplit1[1].split("\\.");
         
